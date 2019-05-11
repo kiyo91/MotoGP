@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: normal;
+  color: #222;
+  background-color: #fff;
+}
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.header-date {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.header-date img {
+  max-width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100% !important;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+
+.carousel-indicators li {
+    height: 10px;
+    max-width: 10px;
+    border-radius: 50%;
+    margin: 1px 10px;
+    background-color: gray;
+    margin-bottom: -100px;
+}
+
+.mainTitleWrap {
+  margin: 20px auto;
+}
+
+.mainTitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+.top_bnr{
+  width:100%;
+  margin:0 auto 70px;
+}
+
+.top_bnr.mt{
+  margin-top: 60px;
+}
+
+.top_bnr.mb{
+  margin-bottom: 0;
+}
+
+.top_bnr img{
+  width:100%;
+}
+
+
+.top_bnr a:hover {
+    opacity: 0.7;
+  transition: all 0.5s;
+}
+
+
+
+
+
+.eventOutline {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.eventOutline .eventOutlineTitle {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.eventOutline ul {
+    border-top: 1px solid #95989A;
+    border-bottom: 1px solid #95989A;
+    padding: 0;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.eventOutline ul li {
+    color: #000000;
+    display: block;
+    padding: 7px 0 0;
+    text-decoration: none !important;
+}
+
+.eventOutline ul li:after {
+    border-bottom: 1px dotted #95989A;
+    content: '';
+    display: block;
+    margin-top: 10px;
+}
+
+.eventOutline ul li:last-child:after {
+    border-bottom: none;
+}
+
+.eventOutline ul li {
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    width: 960px;
+}
+
+.eventOutline ul li dl {
+    margin: 0 20px;
+    text-align: left;
+}
+
+.eventOutline ul li dl dt {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 130px;
+}
+
+.eventOutline ul li dl dd {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 780px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.mainTitle {
+  font-size:25px;
+}
+
+.eventOutline ul {
+  width: 100%;
+}
+
+.eventOutline ul li {
+  width:100%;
+}
+
+.eventOutline ul li dl dt {
+    display: block;
+}
+.eventOutline ul li dl dd {
+    display: block;
+    width: 100%;
+}
+}
+@media (max-width: 768px) {
+.mainTitle {
+  font-size:20px;
+}
+}
+@media (max-width: 576px) {
+.mainTitle {
+  font-size:15px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
